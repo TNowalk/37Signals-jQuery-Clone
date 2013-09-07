@@ -143,3 +143,59 @@ a.signin {
   background: url('../img/img-hr.png') no-repeat center;
   margin: 40px 0;
 }
+
+/** Overlay Styles **/
+.productOverlay {
+  display: none;
+  position: absolute;
+  margin: -427px 0 0 -117px;
+  background-color: #fff;
+  width: 833px;
+  height: 180px;
+}
+
+.productOverlay h1 {
+  color: #222;
+  margin: 10px 0 19px 0;
+  font-size: 46px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-family: 'Crimson Text', "Times New Roman", Georgia, serif;
+}
+
+.productOverlay h1 span {
+  color: #336699;
+  text-decoration: underline;
+}
+
+.productOverlay p {
+  font-size: 15px;
+}
+
+.productOverlay.bc {
+  margin-left: -113px;
+}
+
+.productOverlay.hr {
+  margin-left: -334px;
+}
+
+.productOverlay.cf {
+  margin-left: -554px;
+}
+
+.productOverlay img {
+  margin-top: 5px;
+}
+
+.productOverlay.bc img {
+  margin-left: -279px;
+}
+
+.productOverlay.hr img {
+  margin-left: 163px;
+}
+
+.productOverlay.cf img {
+  margin-left: 303px;
+}
