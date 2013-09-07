@@ -1,0 +1,145 @@
+body {
+  font-family: 'Crimson Text', "Times New Roman", Georgia, serif;
+  padding: 30px;
+}
+
+a:link, a:visited {
+  color: #369;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+/** Top Nav Styles **/
+
+#topNav {
+  text-align: right;
+}
+
+#topNav ul {
+  padding: 1px 18px;
+  margin-top: -6px;
+}
+
+#topNav ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  padding: 0 10px 0;
+  font-size: 12px;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+#dateMessage {
+  float: left;
+  padding-top: 6px !important;
+  color: #999;
+}
+
+#topNav ul li a {
+  text-decoration: none;
+}
+
+a.signin {
+  color: #18afe0;
+}
+
+/** Logo Styles **/
+
+#logo {
+  text-align: center;
+  margin-top: 35px;
+}
+
+/** Content Styles **/
+
+#contentContainer {
+  width: 850px;
+  margin: auto;
+  margin-top: 12px;
+  text-align: center;
+}
+
+#headline h1 {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 58px;
+  clear: both;
+  line-height: 1.0em;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+  color: #232323;
+}
+
+#headline h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 26px 0 16px;
+}
+
+#productContainer {
+  width: 670px;
+  margin: auto;
+}
+
+.productBox {
+  width: 160px;
+  margin: 15px 20px 5px;
+  float: left;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px #efefef;
+  -moz-box-shadow: 0 0 5px #efefef;
+  box-shadow: 0 0 5px #efefef;
+  padding: 20px 10px 24px;
+  text-decoration: none;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+  background: -moz-linear-gradient(top, #fff, #efefef);
+}
+
+.productBox h3 {
+  font-size: 21px;
+  color: #369;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 9px 0 0 1px;
+  vertical-align: top;
+}
+
+.productBox h3 span {
+  text-decoration: underline;
+}
+
+.productBox h3 sup {
+  position: absolute;
+  color: #999;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+.productBox h5 {
+  margin: 15px 0 16px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  color: #cc0000;
+}
+
+.productBox p {
+  color: #222;
+  font-size: 14px;
+  line-height: 1.4em;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.separator {
+  height: 12px;
+  background: url('../img/img-hr.png') no-repeat center;
+  margin: 40px 0;
+}
